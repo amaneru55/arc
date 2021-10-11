@@ -1,0 +1,13 @@
+@import 'src/shared/style/mixin';
+@import 'src/shared/style/variable';
+.container {
+  height: 100vh;
+  width: 100vw;
+  background: $primary-color;
+  @include flex(flex-start, center, column);
+  p {
+    color: #333;
+    font-size: 6rem;
+    font-weight: 600;
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "arc",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "amaneru <amenru@163.com>",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^8.2.0",
+    "fs-extra": "^10.0.0",
+    "validate-npm-package-name": "^3.0.0"
+  }
+}
